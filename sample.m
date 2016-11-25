@@ -4,7 +4,6 @@ BW = edge(I,'canny');
 imshow(BW);
 
 figure(1), imshow(I)
-
 figure(2)
 gray_image = rgb2gray(I);
 imshow(gray_image);
